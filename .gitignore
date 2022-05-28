@@ -1,5 +1,10 @@
+# MLflow files
+**/mlruns/
+**/mlflow.db
+
 # Data
-*.parquet
+**/*.parquet
+**/*.pkl
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
