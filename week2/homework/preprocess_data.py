@@ -37,6 +37,10 @@ def preprocess(df: pd.DataFrame, dv: DictVectorizer, fit_dv: bool = False):
 
 
 def run(raw_data_path: str, dest_path: str, dataset: str = "green"):
+    import os
+    print(os.getcwd())
+    print(os.listdir(raw_data_path))
+
     # load parquet files
     df_train = read_dataframe(
         os.path.join(raw_data_path, f"{dataset}_tripdata_2021-01.parquet")
@@ -71,6 +75,8 @@ def run(raw_data_path: str, dest_path: str, dataset: str = "green"):
 
 
 if __name__ == '__main__':
+
+    print('preprocess_data.py')
 
     parser = argparse.ArgumentParser()
     parser.add_argument(
