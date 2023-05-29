@@ -1,6 +1,7 @@
 # MLflow files
 **/mlruns/
 **/mlflow.db
+**/artefacts
 
 # Data
 **/*.parquet
