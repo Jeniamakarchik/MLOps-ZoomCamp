@@ -120,6 +120,10 @@ def main_flow(
     mlflow.set_tracking_uri("sqlite:///mlflow.db")
     mlflow.set_experiment("nyc-taxi-experiment")
 
+    import os
+
+    print(os.getcwd())
+
     # Load
     df_train = read_data(train_path)
     df_val = read_data(val_path)
