@@ -1,0 +1,3 @@
+[submodule "week3/prefect"]
+	path = week3/prefect
+	url = git@github.com:Jeniamakarchik/mlops_prefect.git

@@ -1,8 +1,0 @@
-data/
-.ipynb_checkpoints
-models/*
-mlruns/*
-.vscode/
-./DS_Store
-*.db
-*.DS_Store
